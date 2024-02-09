@@ -98,16 +98,16 @@ Nakon što se navigira na navedenu web stranicu pomoću driver.Navigate().GoToUr
 
 Zatim se redom popunjavaju različita polja obrasca:
 
-Ime (firstName) <br>
-Prezime (lastName)  <br>
-Email adresa (userEmail) <br>
-Spol (gender-radio-1) <br>
-Broj telefona (userNumber) <br>
-Datum rođenja (dateOfBirthInput), gdje se odabire godina i mjesec pomoću padajućih izbornika (SelectElement) <br>
-Nakon odabira godine i mjeseca, odabire se i datum rođenja (31. prosinac 2000.) <br>
-Predmeti (subjectsInput) <br>
-Hobiji (hobbies-checkbox-1) <br>
-Trenutna adresa (currentAddress) <br>
+Ime (firstName), <br>
+Prezime (lastName),  <br>
+Email adresa (userEmail), <br>
+Spol (gender-radio-1), <br>
+Broj telefona (userNumber), <br>
+Datum rođenja (dateOfBirthInput), gdje se odabire godina i mjesec pomoću padajućih izbornika (SelectElement), <br>
+Nakon odabira godine i mjeseca, odabire se i datum rođenja (31. prosinac 2000.), <br>
+Predmeti (subjectsInput), <br>
+Hobiji (hobbies-checkbox-1), <br>
+Trenutna adresa (currentAddress). <br>
 Nakon što su sva polja ispravno popunjena, klikne se na gumb za slanje obrasca (submit), čiji element je pronađen pomoću XPath putanje, i to pomoću JavaScriptExecutora, čime se simulira klik na gumb.
 
 Ovim testom provjerava se funkcionalnost popunjavanja i slanja obrasca na web stranici.
