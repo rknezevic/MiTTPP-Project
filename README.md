@@ -98,7 +98,7 @@ Nakon što se navigira na navedenu web stranicu pomoću driver.Navigate().GoToUr
 
 Zatim se redom popunjavaju različita polja obrasca:
 
-Ime (firstName)
+Ime (firstName) <br>
 Prezime (lastName)
 Email adresa (userEmail)
 Spol (gender-radio-1)
